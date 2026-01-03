@@ -1,0 +1,80 @@
+<!-- *This part will be on hover, transition and shadow effects using CSS* -->
+
+<style>
+  .subscribe {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-size: 18px;
+    /* what you want to transition, how long */
+    transition: opacity 0.15s;
+  }
+  /* * Hover effect * */
+  .subscribe:hover {
+    /* background-color: rgb(150, 0, 0); */
+    /* opacity makes it faded */
+    opacity: 0.8;
+  }
+
+  /* active */
+  .subscribe:active {
+    /* background-color: rgb(13, 115, 240); */
+    opacity: 0.4;
+  }
+
+  .join {
+    background-color: white;
+    color: rgb(8, 100, 238);
+    border: rgb(8, 100, 238);
+    border-style: solid;
+    border-width: 1px;
+    height: 40px;
+    width: 75px;
+    border-radius: 2px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: backlground-color 0.15s, color 0.15s, opacity 0.15s;
+  }
+
+  .join:hover {
+    background-color: rgb(8, 100, 238);
+    color: white;
+  }
+
+  .join:active {
+    opacity: 0.5;
+  }
+
+  .tweet {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 80px;
+    /** 
+    * * half the hight or width in order to get rounded radius *
+    **/
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+  }
+
+  .tweet:hover {
+    /* horizontal pos, vertical pos, blur, color */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+</style>
+
+<button class="subscribe">Subscribe</button>
+
+<button class="join">JOIN</button>
+
+<button class="tweet">Tweet</button>
