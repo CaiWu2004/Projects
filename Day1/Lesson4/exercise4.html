@@ -1,0 +1,66 @@
+<style>
+  .NumBtn {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .BackBtn,
+  .NextBtn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Stretch {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    transition: padding 0.5s;
+  }
+
+  .Stretch:hover {
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .ThreeD {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    transition: padding 0.5s;
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  .ThreeD:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  }
+</style>
+
+<button class="BackBtn">Back</button>
+<a class="NumBtn">1</a>
+<a class="NumBtn">2</a>
+<a class="NumBtn">3</a>
+<a class="NumBtn">4</a>
+<a class="NumBtn">5</a>
+<button class="NextBtn">Next</button>
+
+<button class="Stretch">Stretch</button>
+
+<button class="ThreeD">Shadow</button>
