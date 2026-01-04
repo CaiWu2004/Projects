@@ -44,12 +44,34 @@
     transition: padding 0.5s;
     box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.4);
     cursor: pointer;
+    margin-right: 8px;
   }
 
   .ThreeD:active {
     margin-top: 3px;
     margin-left: 3px;
     box-shadow: none;
+  }
+
+  .btn {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: none;
+    transition: padding-left 0.15s, padding-right 0.15s, marign 0.15s;
+  }
+
+  .btn:hover {
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 </style>
 
@@ -64,3 +86,7 @@
 <button class="Stretch">Stretch</button>
 
 <button class="ThreeD">Shadow</button>
+
+<button class="Btn">One</button>
+<button class="Btn">Two</button>
+<button class="Btn">Three</button>
