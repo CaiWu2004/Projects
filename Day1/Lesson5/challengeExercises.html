@@ -1,132 +1,147 @@
-<style>
-  p {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: Arial;
-    text-align: center;
-  }
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: Roboto;
+        text-align: center;
+      }
 
-  .apple-status {
-    color: red;
-    font-size: 14px;
-    margin-bottom: 12px;
-  }
-  .apple-name {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  .apple-description {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 12px;
-  }
-  .apple-price {
-    font-size: 18px;
-    margin-bottom: 14px;
-  }
-  .apple-buy {
-    background-color: rgb(29, 161, 242);
-    color: white;
-    border: none;
-    font-size: 14px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 18px;
-    padding-right: 18px;
-    border-radius: 16px;
-    margin-bottom: 40px;
-  }
+      .apple-status {
+        color: red;
+        font-size: 14px;
+        margin-bottom: 12px;
+      }
+      .apple-name {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .apple-description {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 12px;
+      }
+      .apple-price {
+        font-size: 18px;
+        margin-bottom: 14px;
+      }
+      .apple-buy {
+        background-color: rgb(29, 161, 242);
+        color: white;
+        border: none;
+        font-size: 14px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 16px;
+        margin-bottom: 40px;
+      }
 
-  .stock-price {
-    text-align: left;
-    font-size: 32px;
-    margin-bottom: 6px;
-  }
+      .stock-price {
+        text-align: left;
+        font-size: 32px;
+        margin-bottom: 6px;
+      }
 
-  .stock-price-unit {
-    text-align: left;
-    font-size: 18px;
-    color: rgb(96, 96, 96);
-  }
+      .stock-price-unit {
+        text-align: left;
+        font-size: 18px;
+        color: rgb(96, 96, 96);
+      }
 
-  .stock-status {
-    text-align: left;
-    font-size: 16px;
-    color: rgb(0, 118, 0);
-    margin-bottom: 12px;
-  }
+      .stock-status {
+        text-align: left;
+        font-size: 16px;
+        color: rgb(0, 118, 0);
+        margin-bottom: 12px;
+      }
 
-  .stock-afterhour-price {
-    text-align: left;
-    font-size: 16px;
-    color: rgb(96, 96, 96);
-    margin-bottom: 40px;
-  }
+      .stock-afterhour-price {
+        text-align: left;
+        font-size: 16px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 40px;
+      }
 
-  .stock-decrease {
-    text-align: left;
-    color: red;
-  }
+      .stock-decrease {
+        text-align: left;
+        color: red;
+      }
 
-  .text-website {
-    text-align: left;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  .text-website-username {
-    text-align: left;
-    color: rgb(96, 96, 96);
-    font-weight: normal;
-  }
+      .text-website {
+        text-align: left;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .text-website-username {
+        text-align: left;
+        color: rgb(96, 96, 96);
+        font-weight: normal;
+      }
 
-  .text-description {
-    text-align: left;
-    font-size: 18px;
-    margin-bottom: 18px;
-    width: 570px;
-  }
+      .text-description {
+        text-align: left;
+        font-size: 18px;
+        margin-bottom: 18px;
+        width: 570px;
+      }
 
-  .text-advice {
-    text-align: left;
-    font-size: 18px;
-    width: 570px;
-  }
+      .text-advice {
+        text-align: left;
+        font-size: 18px;
+        width: 570px;
+      }
 
-  .text-shoutout {
-    text-align: left;
-    color: rgb(29, 161, 242);
-  }
-</style>
+      .text-shoutout {
+        text-align: left;
+        color: rgb(29, 161, 242);
+      }
+    </style>
+  </head>
+  <body>
+    <p class="apple-status">New</p>
+    <p class="apple-name">Macbook Pro</p>
+    <p class="apple-description">Supercharged for pros.</p>
+    <p class="apple-price">From $1999</p>
+    <!-- <button class="apple-buy">Buy</button> -->
+    <p><span class="apple-buy">Buy</span></p>
 
-<p class="apple-status">New</p>
-<p class="apple-name">Macbook Pro</p>
-<p class="apple-description">Supercharged for pros.</p>
-<p class="apple-price">From $1999</p>
-<!-- <button class="apple-buy">Buy</button> -->
-<p><span class="apple-buy">Buy</span></p>
+    <!-- ef. -->
 
-<!-- ef. -->
+    <p class="stock-price">
+      1&#44;049.61 <span class="stock-price-unit">USD</span>
+    </p>
+    <p class="stock-status">+18&#46;05 &#40;1.75&#37;&#41; today</p>
+    <p class="stock-afterhour-price">
+      After hours 1&#44;048.00
+      <span class="stock-decrease">-1&#46;61 &#40;0.15&#37;&#41;</span>
+    </p>
 
-<p class="stock-price">
-  1&#44;049.61 <span class="stock-price-unit">USD</span>
-</p>
-<p class="stock-status">+18&#46;05 &#40;1.75&#37;&#41; today</p>
-<p class="stock-afterhour-price">
-  After hours 1&#44;048.00
-  <span class="stock-decrease">-1&#46;61 &#40;0.15&#37;&#41;</span>
-</p>
-
-<p class="text-website">
-  freeCodeCamp&#46;org<span class="text-website-username">
-    &#64;freeCodeCamp 1h</span
-  >
-</p>
-<p class="text-description">
-  As a web developer. you&#34;ll want to make your projects easy to use and
-  navigate around.
-</p>
-<p class="text-advice">
-  Here <span class="text-shoutout">&#64;chp_it</span> outlines the top skills
-  new developers should have.
-</p>
+    <p class="text-website">
+      freeCodeCamp&#46;org<span class="text-website-username">
+        &#64;freeCodeCamp 1h</span
+      >
+    </p>
+    <p class="text-description">
+      As a web developer. you&#34;ll want to make your projects easy to use and
+      navigate around.
+    </p>
+    <p class="text-advice">
+      Here <span class="text-shoutout">&#64;chp_it</span> outlines the top
+      skills new developers should have.
+    </p>
+  </body>
+</html>
