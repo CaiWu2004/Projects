@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uber request-a-ride form</title>
+    <style>
+      p {
+        margin: 0;
+        padding: 0;
+      }
+      .title {
+        font-size: 50px;
+        margin-bottom: 26px;
+      }
+      .pickup-location {
+        display: block;
+        margin-bottom: 6px;
+        background-color: rgb(237, 235, 235);
+        border: none;
+        font-size: 18px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        width: 400px;
+      }
+
+      .destination {
+        display: block;
+        margin-bottom: 6px;
+        background-color: rgb(237, 235, 235);
+        border: none;
+        font-size: 18px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        width: 400px;
+        margin-bottom: 30px;
+      }
+
+      .request-btn {
+        font-size: 18px;
+        background-color: black;
+        color: white;
+        border: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-right: 12px;
+      }
+
+      .schedule-btn {
+        font-size: 18px;
+        background-color: rgb(238, 236, 236);
+        color: black;
+        border: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="title">Request a ride now</p>
+    <input
+      class="pickup-location"
+      type="text"
+      placeholder="Enter pickup location"
+    />
+    <input class="destination" type="text" placeholder="Enter destination" />
+    <button class="request-btn">Request Now</button>
+    <button class="schedule-btn">Schedule for later</button>
+  </body>
+</html>
