@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <style>
+      div {
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 450px;
+        border-radius: 6px;
+      }
+      .cat-thumbnail {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 50px;
+        vertical-align: middle;
+        padding: 8px 8px 10px 10px;
+      }
+
+      .quote {
+        vertical-align: middle;
+        font-size: 20px;
+        color: grey;
+        border: none;
+        margin-right: 50px;
+      }
+
+      .tweet-btn {
+        background-color: rgb(29, 161, 242);
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 20px;
+        border: none;
+        padding: 6px 15px 6px 15px;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img class="cat-thumbnail" src="../Lesson7/thumbnails/cat.jpg" />
+      <input class="quote" type="text" placeholder="What's happening?" />
+      <button class="tweet-btn">Tweet</button>
+    </div>
+  </body>
+</html>
