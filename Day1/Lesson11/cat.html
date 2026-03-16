@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 10D</title>
+    <style>
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: Arial;
+      }
+      .profile {
+        width: 200px;
+        margin-right: 15px;
+        /* display: inline-block; */
+        vertical-align: top;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      }
+
+      .profile-picture {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 12px;
+      }
+
+      .name {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 2px;
+        padding-left: 10px;
+      }
+
+      .mutual-friends-rows {
+        margin-left: 8px;
+        margin-bottom: 10px;
+      }
+
+      .author {
+        width: 30px;
+        height: 30px;
+        border-radius: 14px;
+        object-fit: cover;
+        vertical-align: middle;
+        margin-right: 4px;
+      }
+
+      .friend-status {
+        /* display: inline-block; */
+        font-size: 18px;
+        color: rgb(100, 100, 100);
+        vertical-align: middle;
+      }
+
+      .addBtn {
+        display: block;
+        width: 130px;
+        height: 45px;
+        padding: 8px 0;
+        background-color: rgb(59, 89, 152);
+        color: white;
+        background-color: rgb(24, 119, 242);
+        border: none;
+        border-radius: 8px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: 8px;
+        margin-bottom: 16px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="profile">
+        <img class="profile-picture" src="../Lesson10/thumbnails/cat.jpg" />
+        <p class="name">Oliver</p>
+        <div class="mutual-friends-rows">
+          <img class="author" src="../Lesson10/thumbnails/dog2.jpg" />
+          <p class="friend-status">2 mutual friends</p>
+        </div>
+        <button class="addBtn">Add Friend</button>
+      </div>
+
+      <div class="profile">
+        <img class="profile-picture" src="../Lesson10/thumbnails/cat2.jpg" />
+        <p class="name">Mimi</p>
+        <div class="mutual-friends-rows">
+          <img class="author" src="../Lesson10/thumbnails/dog2.jpg" />
+          <p class="friend-status">3 mutual friends</p>
+        </div>
+        <button class="addBtn">Add Friend</button>
+      </div>
+
+      <div class="profile">
+        <img class="profile-picture" src="../Lesson10/thumbnails/dog.jpg" />
+        <p class="name">Rex</p>
+        <div class="mutual-friends-rows">
+          <img class="author" src="../Lesson10/thumbnails/dog2.jpg" />
+          <p class="friend-status">4 mutual friends</p>
+        </div>
+        <button class="addBtn">Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>
