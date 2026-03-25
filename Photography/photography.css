@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-style: Arial;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+header {
+  width: 80%;
+  height: 100px;
+  background-color: purple;
+  margin: 0px auto;
+  line-height: 100px;
+}
+
+nav {
+  /* width: 80%; */
+  height: 40px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.nav-button {
+  width: 25%;
+  height: 40px;
+  background-color: lightblue;
+  color: white;
+  border: solid black 1px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
