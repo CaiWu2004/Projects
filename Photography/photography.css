@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-style: Arial;
+
   background-color: antiquewhite;
   height: 100vh;
 }
@@ -11,13 +11,12 @@ h2,
 h3,
 p {
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-style: Arial;
 }
 
 h1 {
   font-size: 50px;
+  vertical-align: center;
 }
 
 header {
@@ -25,28 +24,57 @@ header {
   height: 100px;
   background-color: purple;
   margin: 0px auto;
+  text-align: center;
   line-height: 100px;
 }
 
 nav {
-  /* width: 80%; */
-  height: 40px;
+  width: 80%;
+  height: 60px;
+  background-color: blue;
   margin: 0px auto;
+  vertical-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: blue;
+  direction: row;
+  gap: 10px;
 }
 
 .nav-button {
-  width: 25%;
-  height: 40px;
+  width: 20%;
+  height: 60px;
   background-color: lightblue;
   color: white;
-  border: solid black 1px;
-  box-sizing: border-box;
+  /* border: solid black 1px;
+  box-sizing: border-box; */
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.nav-button:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.nav-button:active {
+  background-color: gray;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+main {
+  width: 80%;
+  height: 100vh;
+  background-color: pink;
+  margin: 0px auto;
+}
+
+footer {
+  width: 80%;
+  height: 70px;
+  background-color: red;
+  margin: 0px auto;
 }
