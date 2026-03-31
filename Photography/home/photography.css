@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  font-style: Arial;
+}
+
+h1 {
+  font-size: 40px;
+  vertical-align: center;
+}
+
+header {
+  width: 80%;
+  height: 100px;
+  background-color: purple;
+  margin: 0px auto;
+  text-align: center;
+  line-height: 100px;
+}
+
+nav {
+  width: 80%;
+  height: 60px;
+  background-color: blue;
+  margin: 0px auto;
+  vertical-align: center;
+  display: flex;
+  justify-content: center;
+  direction: row;
+  gap: 10px;
+}
+
+.nav-button {
+  width: 20%;
+  height: 60px;
+  background-color: lightblue;
+  color: white;
+  /* border: solid black 1px;
+  box-sizing: border-box; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.nav-button:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.nav-button:active {
+  background-color: gray;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+main {
+  width: 80%;
+  height: 100vh;
+  background-color: pink;
+  margin: 20px auto;
+}
+
+.main-content {
+  width: 100%;
+  height: 300px;
+  background-color: lightblue;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  /* direction: row; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.main-text {
+  width: 40%;
+  height: 300px;
+  background-color: lightgreen;
+}
+
+.main-image {
+  width: 40%;
+  height: 250px;
+  object-fit: cover;
+  background-color: lightcoral;
+}
+
+footer {
+  width: 80%;
+  height: 62px;
+  background-color: red;
+  margin: 0px auto;
+  vertical-align: center;
+  display: flex;
+  justify-content: center;
+  direction: row;
+  gap: 10px;
+}
