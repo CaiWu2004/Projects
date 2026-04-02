@@ -75,6 +75,11 @@ main {
   flex: 1;
 }
 
+p {
+  font-size: 18px;
+  padding: 12px;
+}
+
 footer {
   width: 80%;
   height: 62px;
