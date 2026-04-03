@@ -3,7 +3,7 @@ body {
   padding: 0;
 
   background-color: antiquewhite;
-  min-height: 200vh;
+  min-height: 100vh;
 
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@ h2,
 h3,
 p {
   margin: 0;
-  font-family: Arial;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 header {
   width: 80%;
   height: 100px;
-  background-color: purple;
+  /* background-color: purple; */
   margin: 0px auto;
   text-align: center;
   line-height: 100px;
@@ -34,7 +34,7 @@ header {
 nav {
   width: 80%;
   height: 60px;
-  background-color: blue;
+  /* background-color: blue; */
   margin: 0px auto;
   vertical-align: center;
   display: flex;
@@ -70,15 +70,27 @@ nav {
 
 main {
   width: 80%;
-  background-color: pink;
+  /* background-color: pink; */
   margin: 20px auto;
   flex: 1;
 }
 
+.link {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+  gap: 10px;
+}
 footer {
   width: 80%;
   height: 62px;
-  background-color: red;
+  /* background-color: red; */
   margin: 0px auto;
   vertical-align: center;
   display: flex;
